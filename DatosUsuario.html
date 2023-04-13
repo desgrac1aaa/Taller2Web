@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datos Usuario</title>
+  </head>
+  <body>
+    <h1>RELLENA TU CV</h1>
+    <div>
+      Nombre
+      <br />
+      <input type="text" />
+      <br />
+      Apellido
+      <br />
+      <input type="text" />
+      <br />
+      Contraseña
+      <br />
+      <input type="password" />
+      <br />
+      Confirmar contraseña
+      <br />
+      <input type="password" />
+      <br />
+      Identificación
+      <br />
+      <select name="id" id="">
+        <option value="ti">TI</option>
+        <option value="cc">CC</option>
+        <option value="ce">CE</option>
+      </select>
+      <input type="text" />
+      <br />
+      Sexo
+      <br />
+      <input type="radio" id="femenino" name="sexo" value="femenino" /> Femenino
+      <br />
+      <input type="radio" id="masculino" name="sexo" value="masculino" />
+      Masculino
+      <br />
+      <input type="radio" id="Otro" name="sexo" value="Otro" /> Otro
+      <br />
+      Incluir mi foto
+      <br />
+      <input type="file" />
+      <br />
+      <br />
+      <input type="checkbox" /> Estudiante...
+      <br />
+      <br />
+      <fieldset style="width: 350px">
+        <legend>Datos Personales</legend>
+        Departamento
+        <br />
+        <select name="depar" id="">
+          <option value="seleec">-Selecciona-</option>
+        </select>
+        <br />
+        Fecha de Nacimiento
+        <br />
+        <input type="text" size="5px" /> de
+        <select name="mes" mes="">
+          <option value="ene">Enero</option>
+          <option value="feb">Febrero</option>
+          <option value="mar">Marzo</option>
+        </select>
+        de <input type="text" size="5px" />
+        <br />
+        <br />
+        Temas de interes
+        <br />
+        <select name="temas" id="temas" size="5">
+          <option value="admin">Administración de bases de datos</option>
+          <option value="analisis">Análisis y Programación</option>
+          <option value="arqui">Arquitectura</option>
+          <option value="cali">Calidad</option>
+          <option value="ERP">ERP, CRM, Business Intelligence</option>
+          <option value="paz">Paz Mundial</option>
+          <option value="Compu">Computadoras</option>
+        </select>
+      </fieldset>
+      <button>Guardar Cambios</button>
+      <button>Borrar los datos instroducidos</button>
+    </div>
+  </body>
+</html>
